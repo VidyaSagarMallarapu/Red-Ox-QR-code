@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Red Ox</string>
+    <string-array name="age">
+        <item>Select your age ... </item>
+        <item> less than 10 </item>
+        <item> 10 - 15 </item>
+        <item> 16 - 40 </item>
+        <item> above 40 </item>
+    </string-array>
+    <string-array name="gender">
+        <item>Select your gender... </item>
+        <item> male </item>
+        <item> female</item>
+        <item> other</item>
+    </string-array>
+    <string-array name="training">
+        <item>Select the trainging type... </item>
+        <item> Maui Thai</item>
+        <item> Jujutsu </item>
+        <item> Karate </item>
+        <item> Judo </item>
+    </string-array>
+    <string-array name="excercise">
+        <item>Select an exercise type ... </item>
+        <item>  Cardio  </item>
+        <item> Strength </item>
+        <item> Stamina </item>
+        <item> Muscle </item>
+    </string-array>
+
+</resources>

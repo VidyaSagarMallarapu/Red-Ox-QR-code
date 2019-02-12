@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.vidyasagarnaidum.redox.GenerateQR">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+
+            android:textColor="@color/zxing_custom_result_view"
+        android:text="the generated QR code"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        app:srcCompat="@color/colorAccent" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="120dp"
+        android:onClick="goHome"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="go Home" />
+
+
+</LinearLayout>
